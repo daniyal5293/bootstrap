@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALert + Jumbotron</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- in BS 3,4 jumbotron exist but in BS 5 not, run bottom given code for 
+    jumbotron understanding -->
+    <!-- <div class="container">
+        <div class="bg-primary text-white p-5 mt-2 my-5">
+            <h1>Coding</h1>
+            <p>It is a very popular word in the world.</p>
+        </div>
+    </div> -->
+    <div class="container">
+         <div class="row mt-2">
+            <div class="col-md-12">
+                <div class="alert alert-success alert-dismissible fade show">
+                 <strong>Successfully Login</strong> You are genius <a href="#" class="alert-link">see more..</a>
+                 <button class="btn-close"    data-bs-dismiss="alert"></button>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

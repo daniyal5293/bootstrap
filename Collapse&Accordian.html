@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse & Accordian</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="accordion" >
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-danger" data-bs-toggle="collapse"
+                    data-bs-target="#collapse1">
+                        Accordian Item number one.
+                    </button>
+                </div>
+            <div class="collapse" id="collapse1" data-bs-parent="#accordion">
+               <div class="card-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, earum.
+               </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-danger" data-bs-toggle="collapse"
+                data-bs-target="#collapse2">
+                    Accordian Item number two.
+                </button>
+            </div>
+            <div class="collapse" id="collapse2" data-bs-parent="#accordion">
+            <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, earum.
+             </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="card-header">
+                <button class="btn btn-danger" data-bs-toggle="collapse"
+                data-bs-target="#collapse3">
+                    Accordian Item number one.
+                </button>
+            </div>
+        <div class="collapse" id="collapse3" data-bs-parent="#accordion">
+           <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, earum.
+           </div>
+        </div>
+    </div>
+    </div>
+</div>
+    <!-- <div class="container">
+        <button class="btn btn-primary" data-bs-toggle="collapse" 
+        data-bs-target="#one">
+            Click me 
+        </button>
+        <div class="collapse show" id="one">
+            Lorem ipsum dolor sit Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nostrum!
+        </div>
+    </div> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
